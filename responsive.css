@@ -1,0 +1,32 @@
+  
+  /* Media query for screens with a maximum width of 768 pixels */
+  @media only screen and (max-width: 1000px) {
+    
+        .profit-loss{
+            width: 200px;
+height: 140px;
+        }
+        .barchart-box {
+            width: 600px;
+        }
+        .pie-chart-box {
+            width: 500px;
+        }
+        .chart-container{
+            justify-content: center;
+        }
+    /* Add more responsive styles as needed */
+  }
+  
+  /* Media query for screens with a maximum width of 480 pixels */
+  @media only screen and (max-width: 800px) {
+    .barchart-box {
+        width: 450px;
+      }
+      .pie-chart-box {
+        width: 300px;
+    }
+
+    /* Add more responsive styles as needed */
+  }
+  
